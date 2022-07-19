@@ -25,6 +25,10 @@ class Letter {
     return (guessLetter === this.character);
   }
 
+  getSolution() {
+    return this.character;
+  }
+
 }
 
 module.exports = Letter;
