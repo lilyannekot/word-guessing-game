@@ -20,6 +20,11 @@ class Letter {
       return this.character;
     }
   }
+
+  guess(guessLetter) {
+    return (guessLetter === this.character);
+  }
+
 }
 
 module.exports = Letter;
